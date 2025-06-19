@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.calculator-button {
+  @apply w-full h-16 outline-none focus:outline-none hover:bg-indigo-700/20 text-white text-xl font-light;
+}
+
+.is-command {
+  @apply bg-indigo-700/20;
+}
+
+.is-pressed {
+  @apply bg-indigo-800/20;
+}
