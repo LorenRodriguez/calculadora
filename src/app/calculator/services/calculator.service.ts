@@ -54,8 +54,8 @@ export class CalculatorService {
     }
 
     // limitar numero de caracteres
-    if (this.resultText.length >= 10) {
-      console.log('maximo permitido');
+    if (this.resultText().length >= 10) {
+      return;
     }
 
     // validar punto decimal
